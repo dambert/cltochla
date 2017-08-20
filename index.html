@@ -37,7 +37,6 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
-
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/plugins.js"></script>
@@ -48,6 +47,13 @@
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="js/menu.js"></script>
 
+        <script type="text/javascript">
+            $(function(){
+                $("#header").load("header.html")
+                $("#footer").load("footer.hmtl")
+            })
+        </script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -56,67 +62,7 @@
 
         <!-- Add your site or application content here -->
         <div class="wrapper">
-                <header>                    
-                    <div class="menu_bar">
-                        <a href="#" class="btn-menu"><span class="icon-menu3"></span><img src="img/logo.png" alt="OrquestaClavitoySuChela"  class="imagen_responsive_menu" title="OrquestaClavitoySuChela"></a>
-                    </div> 
-                    <div class="nav">
-                        <ul class="ulmenusuperior hidden-xs hidden-sm">
-                               <li class="menulogo">
-                                <a href="inicio.html"><img src="img/logo.png" alt="OrquestaClavitoySuChela" class="img-responsive" title="OrquestaClavitoySuChela"></a>
-                               </li>
-                               <li class="menulogocontactanos ">
-                                    <div class="row">
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                <strong>Clavifono:</strong>    
-                                        </div>
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                           (+051) 997553349(RPC)
-                                        </div>
-                                    </div>
-                                        <hr class="hrcontactanosmenu">
-
-                                    <div class="row">
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                <strong> Contactar:</strong>     
-                                        </div>
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                           Juana del Arco
-                                        </div>
-                                    </div>
-
-                                        <hr class="hrcontactanosmenu">
-                                    <div class="row">
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                <strong> Email:</strong>                                 
-                                        </div>
-                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                           c@orquestaclavitoysuchela.com
-                                        </div>
-                                    </div>
-                               </li>
-                               <li class="menulogoredes">                                   
-                                
-                                    <ul class="redes1">
-                                        <li><a href="https://www.facebook.com/clavitoysuchla" target="_blank"><img src="img/fb2.png" height="30px" alt="facebook" title="facebook"></a></li>
-                                        <li class="redtwittericono"><a href="javascript:void(0);"><img src="img/twitter.png" height="30px"alt="twitter" title="twitter"></a></li>
-                                        <li><a href="javascript:void(0);"><img src="img/youtube.png" height="30px" alt="youtube" title="youtube"></a></li>
-                                    </ul>
-                               </li>
-                        </ul>
-                        <nav class="divmenuinferior" role="navigation">                                             
-                            <ul class="ulmenuinferior">
-                                    <li class=" menunavegacion "> <a href="contactanos.html" title="contactanos" alt="contactanos" >Inicio</a>  </li> 
-                                    <li class=" menunavegacion "> <a href="historia.html" title="historia" alt="historia">Historia</a> </li>
-                                    <li class=" menunavegacion "> <a href="contactanos.html" title="contactanos" alt="contactanos">Contactanos </a> </li>
-                                    <li class=" menunavegacion "> <a href="integrantes.html" title="integrantes" alt="integrantes">Integrantes</a></li>
-                                    <li class=" menunavegacion "> <a href="fotos.html" title="fotos" alt="fotos">Fotos</a></li>
-                                    <li class=" menunavegacion "> <a href="musica.html" title="musica" alt="musica">Musica</a> </li>
-                                    <li class=" menunavegacion"> <a href="eventos.html" title="eventos" alt="eventos">Eventos</a></li>
-                            </ul>
-                        </nav>    
-                    </div><!-- fin nav -->
-                </header>
+                <div id="header"></div>
                 <div class="contenido">
                     <div class="imagenprincipal">
                         <div class="mensajebanner">
@@ -221,78 +167,7 @@
                     
                 <br>
                 </div>
-                <footer>                    
-                    <div class="auspiciadores">
-                        <p class="text-center tamanoletra1">Estos son nuestros <span class="colorletra1">auspiciadores</span></p>
-                        <div class="contenedorauspiciadores">
-                            <div class="logosauspiciadores text-center">
-                                    <div class="event_box">
-                                        <img src="img/auspiciadores/auspiciador2.png" class="img-responsive" alt="Image">
-                                    </div>
-                                    <div class="event_box">
-                                        <img src="img/auspiciadores/auspiciador3.png" class="img-responsive" alt="Image">
-                                    </div>
-                                    <div class="event_box">
-                                        <img src="img/auspiciadores/auspiciador4.png" class="img-responsive" alt="Image">
-                                    </div>
-                                    <div class="event_box">
-                                        <img src="img/auspiciadores/auspiciador4.png" class="img-responsive" alt="Image">
-                                    </div>
-                                    <div class="event_box">
-                                        <img src="img/auspiciadores/auspiciador4.png" class="img-responsive" alt="Image">
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pie">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footerfinal">
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mapa" >
-
-                                <p class="colorletrapie paddingletra">Mapa de Nuestro Sitio</p>
-                                <div class="mapamenu">
-                                    <ul>
-                                        <li><a href="">> Pagina principal</a></li>
-                                        <li><a href="">> Nuestro repertorio</a></li>
-                                        <li><a href="">> Eventos Realizados</a></li>
-                                        <li><a href="">> Contáctate con nosotros</a></li>
-                                        <li><a href="">> Términos y Políticas</a></li>
-                                    </ul>
-                                </div>
-                                <div class="redes">                                     
-                                        <span><a href=""><img src="img/fb2.png" height="35px" alt="facebook" title="facebook"></a></span>
-                                        <span><a href=""><img src="img/twitter.png" height="35px"alt="twitter" title="twitter"></a></span>
-                                        <span><a href=""><img src="img/youtube.png" height="35px" alt="youtube" title="youtube"></a></span>                                    
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 suscribete">
-                                <p class="colorletrapie paddingletra2">Suscríbete para recibir más información</p>
-                                <form action="" method="POST" role="form" class="formsuscribete">            
-                                    <div class="inputemail">                    
-                                        <input type="text" name="" id="input" class="estilosinputemail" value="" required="  required" pattern="" title="" placeholder="         Deja tu correo electrónico">
-                                    </div>
-                                    <div class="inputbutton">
-                                        <button type="button" class="estilosinputbutton">Quiero Suscribirme</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 eventosfooter">
-                                <p class="colorletrapie paddingletra3">Eventos de Nuestra Orquesta</p>
-                                <div class="mapaeventos">
-                                    <ul>
-                                        <li><a href=""> <span>> 1 de Febrero</span> - Santa Clara</a></li>
-                                        <li><a href=""> <span>> 27 de Febrero</span> - Santa Rosa Lima</a></li>
-                                        <li><a href=""> <span>> 1 de Febrero</span> - Santa Clara</a></li>
-                                        <li><a href=""> <span>> 27 de Febrero</span> - Santa Rosa Lima</a></li>
-                                        <li><a href=""> <span>> 1 de Febrero</span> - Santa Clara</a></li>
-                                        <li><a href=""> <span>> 27 de Febrero</span> - Santa Rosa Lima</a></li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="copyright text-center">
-                        <p>Copyright @2015 - Clavito y su chela. Todos los derechos reservados</p>
-                    </div>
-                </footer>
+                <div id="footer"></div>
 
         </div>
 
