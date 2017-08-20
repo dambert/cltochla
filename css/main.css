@@ -2816,7 +2816,7 @@ header{
 
 /*CAMBIOS MENU*/
 .menunavegacion{
-    width: 14%;
+    width: 25%;
     padding:10px;
 }
 
@@ -2871,4 +2871,48 @@ nav{
     margin-bottom: 7px !important;
     border: 0 !important;
     border-top: 1px solid #AD701F !important;
+}
+
+
+
+
+h1 {
+  color:white;
+  font-size:72px;
+  padding:25px 0 0 100px;
+  font-family:helvetica;
+  font-weight:100;
+}
+
+.star {
+      position: absolute;
+      background: url(https://dl.dropbox.com/u/1488103/julie-logo-sparkle.png) no-repeat;
+      background-size: contain;
+      overflow: hidden;
+           
+}
+ .star-1 {
+    width: 50px;
+    height: 34px;
+    top:30px;
+    left:50px;  
+}
+.star-2 {
+    width: 83px;
+    height: 77px;
+    top:18px;
+    left:100px;
+        
+}
+.star-3 {
+    width: 74px;
+    height: 70px;
+    top:-20px;
+    left:35px;
+}
+.star-4 {
+    width: 68px;
+    height: 70px;
+    top:-18px;
+    left:150px;
 }
