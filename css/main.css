@@ -2886,7 +2886,7 @@ h1 {
 
 .star {
       position: absolute;
-      background: url(https://dl.dropbox.com/u/1488103/julie-logo-sparkle.png) no-repeat;
+      background: url(../img/julie-logo-sparkle.png) no-repeat;
       background-size: contain;
       overflow: hidden;
            
